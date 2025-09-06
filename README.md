@@ -54,12 +54,11 @@ m_p \frac{d\mathbf{U}_p}{dt} = \mathbf{F}_g - \mathbf{F}_d - \mathbf{F}_b
 $$
 
 Where:  
-- \(m_p\): Particle mass  
-- \(\mathbf{U}_p\): Particle velocity  
-- \(\mathbf{F}_g\): Gravitational force  
-- \(\mathbf{F}_d\): Drag force  
-- \(\mathbf{F}_b\): Buoyancy force
-
+- $m_p$: Particle mass  
+- $\mathbf{U}_p$: Particle velocity  
+- $\mathbf{F}_g$: Gravitational force  
+- $\mathbf{F}_d$: Drag force  
+- $\mathbf{F}_b$: Buoyancy force
 
 **Drag Force Calculation**: Manual approach using particle acceleration and force balance.
 
