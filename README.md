@@ -42,14 +42,15 @@ Sphere-Sedimentation-Simulation/
 
 **Continuity equation:**
 ```math
-∇⋅U = 0
+\nabla \cdot \mathbf{U} = 0
+```
 
-## Momentum Equation
+**Momentum Equation:**
 
 **Momentum equation (fluid phase):**
 ```math
 ∂U/∂t + ∇⋅(UU) = −∇p/ρ + ν∇²U + Sp/ρ
-
+```
 ## ⚖️ Particle Motion (Newton’s Second Law)
 \[
 m_p \cdot \frac{dU_p}{dt} = F_g - F_d - F_b
