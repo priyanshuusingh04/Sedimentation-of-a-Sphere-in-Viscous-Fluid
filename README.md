@@ -44,24 +44,22 @@ Sphere-Sedimentation-Simulation/
 ```math
 \nabla \cdot \mathbf{U} = 0
 ```
-
-**Momentum Equation:**
-
 **Momentum equation (fluid phase):**
 ```math
 ∂U/∂t + ∇⋅(UU) = −∇p/ρ + ν∇²U + Sp/ρ
 ```
 ## ⚖️ Particle Motion (Newton’s Second Law)
 \[
-m_p \cdot \frac{dU_p}{dt} = F_g - F_d - F_b
+m_p \frac{d\mathbf{U}_p}{dt} = \mathbf{F}_g - \mathbf{F}_d - \mathbf{F}_b
 \]
 
 Where:  
 - \(m_p\): Particle mass  
-- \(U_p\): Particle velocity  
-- \(F_g\): Gravitational force  
-- \(F_d\): Drag force  
-- \(F_b\): Buoyancy force  
+- \(\mathbf{U}_p\): Particle velocity  
+- \(\mathbf{F}_g\): Gravitational force  
+- \(\mathbf{F}_d\): Drag force  
+- \(\mathbf{F}_b\): Buoyancy force
+
 
 **Drag Force Calculation**: Manual approach using particle acceleration and force balance.
 
