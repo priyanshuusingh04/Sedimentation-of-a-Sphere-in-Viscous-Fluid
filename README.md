@@ -49,9 +49,9 @@ Sphere-Sedimentation-Simulation/
 ∂U/∂t + ∇⋅(UU) = −∇p/ρ + ν∇²U + Sp/ρ
 ```
 ## ⚖️ Particle Motion (Newton’s Second Law)
-\[
+$$
 m_p \frac{d\mathbf{U}_p}{dt} = \mathbf{F}_g - \mathbf{F}_d - \mathbf{F}_b
-\]
+$$
 
 Where:  
 - \(m_p\): Particle mass  
@@ -104,6 +104,7 @@ forces1
         e1          (1 0 0);
     }
 }
+```
 
 ## Solver Settings (overPimpleDyMFoam)
 
